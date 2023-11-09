@@ -122,6 +122,8 @@ display: none;
     width: 100%;
     height: 100vh;
     background-size:cover ;
+    position: relative;
+background-position: center;
     
 }
 .bottom-right{
@@ -129,14 +131,17 @@ display: none;
     width: 100%;
     height: 100vh;
     background-size:cover ;
+    position: relative;
+    background-position: center;
 
 }
 .bleft-text , .bright-text{
-    margin-top: 430px;
-    margin-left: 125px;
-    margin-right: 125px;
-    place-content: center;
-    text-align: center;
+    position: absolute;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   text-align: center;
+   top: 60%;
 }
 .second-title{
     font-family: 'Fraunces', serif;
@@ -307,6 +312,9 @@ img{
     .hero-section{
         background-image: url(images/mobile/image-header.jpg);
         height: 180vh;
+        background-position: center;
+        position: relative;
+        
     }
     .bottom-left{
         background-image: url(images/mobile/image-graphic-design.jpg);
@@ -325,10 +333,13 @@ img{
     }
     .arrow{
         display: block;
-        place-content: center;
-        text-align: center;
-        width: 100%;
-        margin: 460px 400px;
+       left: 0%;
+       right: 0%;
+       margin: 0 auto;
+       position: absolute;
+       top: 60%;
+        /* width: 100%; */
+        /* margin: 460px 400px; */
     }
     .bleft-text , .bright-text{
         margin-top: 730px;}
@@ -406,6 +417,9 @@ color: hsl(213, 9%, 39%);
   
     .hero-section{
         height: 100vh;
+        background-position: center;
+        background-size: cover;
+        
     }
     .emilyimg , .thomasimg ,.jennieimg{
         border-radius: 100%;
@@ -484,6 +498,16 @@ color: hsl(213, 9%, 39%);
    
 }
 @media (max-width:408px){
+    .arrow{
+        display: block;
+       left: 0%;
+       right: 0%;
+       margin: 0 auto;
+       position: absolute;
+       top: 55%;
+        /* width: 100%; */
+        /* margin: 460px 400px; */
+    }
     .hero-section{
         background-image: url(images/mobile/image-header.jpg);
         height: 100vh;
@@ -506,6 +530,11 @@ color: hsl(213, 9%, 39%);
     .hero-section{
         background-image: url(images/mobile/image-header.jpg);
         height: 100vh;
+       
+        background-position: center;
+        background-size: cover;
+        
+        
     }
     nav{
         height: 60px;
@@ -557,11 +586,12 @@ color: hsl(213, 9%, 39%);
     margin-bottom: 30px;
 }
 .bleft-text , .bright-text{
-    
-  left: 0;
-  right: 0;
-  margin: 380px auto;
-  place-content: bottom;
+    position: absolute;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   text-align: center;
+   top: 60%;
 }
 .client-header{
   margin-top: 40px;
@@ -573,7 +603,16 @@ color: hsl(213, 9%, 39%);
     color: hsl(213, 9%, 39%);
     line-height: 27px;
 }
-
+.arrow{
+    display: block;
+   left: 0%;
+   right: 0%;
+   margin: 0 auto;
+   position: absolute;
+   top: 55%;
+    /* width: 100%; */
+    /* margin: 460px 400px; */
+}
 
 }
 
