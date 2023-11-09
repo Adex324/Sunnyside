@@ -234,6 +234,18 @@ svg.sunny-last{
     margin: 30px 50px;
     letter-spacing: 20px;
 }
+@media only screen and (max-width: 1375px){
+    .top-side{
+        margin-bottom: -20px;
+    }
+    .middle-side{
+        margin-bottom: -20px;
+    }
+    .bottom-side{
+        margin-top: -10px ;
+    }
+
+}
 @media only screen and (max-width: 1075px){
     .top-side{
         grid-template-columns: 1fr;
@@ -413,18 +425,12 @@ color: hsl(213, 9%, 39%);
         line-height: 27px;
     }
     .bottom-left{
-        background-image: url(images/desktop/image-graphic-design.jpg);
-       
+        background-image: url(images/mobile/image-graphic-design.jpg);
         height: 80vh;
-       
-        
     }
     .bottom-right{
-        background-image: url(images/desktop/image-photography.jpg);
-        
+        background-image: url(images/mobile/image-photography.jpg);
         height: 80vh;
-      
-    
     }
     .bleft-text , .bright-text{
         margin-top: 230px;
@@ -475,8 +481,101 @@ color: hsl(213, 9%, 39%);
       
     }
    
+   
+}
+@media (max-width:408px){
+    .hero-section{
+        background-image: url(images/mobile/image-header.jpg);
+        height: 100vh;
+    }
+    nav{
+        height: 60px;
+        width: 120%;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 20px;
+       
+        text-align: center;
+    }
+    .checkbtn{
+        margin: -10px 93px;
+    }
+}
+@media (max-width:388px){
+    .hero-section{
+        background-image: url(images/mobile/image-header.jpg);
+        height: 100vh;
+    }
+    nav{
+        height: 60px;
+        width: 140%;
+    }
+    label.logo{
+       
+       padding: 10px 20px;
+     
+    }
+  
+    .checkbtn{
+        margin: -10px 146px;
+    }
+    .arrow{
+        display: block;
+     margin: 180px 180px;
+      
+    }
+  img{
+    height: 300px;
+  }
+  .bottom-left{
+    background-image: url(images/mobile/image-graphic-design.jpg);
+    height: 100vh;
+}
+.bottom-right{
+    background-image: url(images/mobile/image-photography.jpg);
+    height: 100vh;
+}
+.top-left , .middle-right{
+      
+ left: 0;
+ right: 0;
+ margin: 0 auto;
+} 
+.small-title{
+  margin-bottom: -10px;
+  font-size: 30px;
+  padding: 10px 30px; 
+  margin-top: 20px;
+}
+.gray-text{
+    font-size: 15px;
+    padding: 10px 50px;
+}
+.bottom-text{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.bleft-text , .bright-text{
+    
+  left: 0;
+  right: 0;
+  margin: 380px auto;
+  place-content: bottom;
+}
+.client-header{
+  margin-top: 40px;
+    font-size: 20px;
+}
+.client-text{
+    padding: 50px;
+    font-family: 'Barlow', serif;
+    color: hsl(213, 9%, 39%);
+    line-height: 27px;
 }
 
+
+}
 
 
 
