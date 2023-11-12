@@ -567,7 +567,7 @@ color: hsl(213, 9%, 39%);
 @media (max-width:408px){
     .small-title{
        
-        margin-top: -170px;
+        margin-top: -175px;
       }
     img{
         width: 100%;
@@ -602,7 +602,7 @@ color: hsl(213, 9%, 39%);
     }
     .last{
             
-        height: 150px;
+        height: 210px;
        
     }
 }
@@ -658,7 +658,7 @@ color: hsl(213, 9%, 39%);
   margin-bottom: -10px;
   font-size: 30px;
   padding: 10px 30px; 
-  margin-top: -115px;
+  margin-top: -135px;
 }
 .gray-text{
     font-size: 15px;
@@ -698,7 +698,7 @@ color: hsl(213, 9%, 39%);
 }
 .last{
             
-    height: 150px;
+    height: 190px;
    
 }
 }
