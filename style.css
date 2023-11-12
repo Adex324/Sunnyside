@@ -565,6 +565,10 @@ color: hsl(213, 9%, 39%);
     }
 }
 @media (max-width:408px){
+    .small-title{
+       
+        margin-top: -155px;
+      }
     img{
         width: 100%;
         height: 70%;
