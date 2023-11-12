@@ -456,7 +456,7 @@ color: hsl(213, 9%, 39%);
     @media (max-width:638px){
         .last{
             
-            height: 300px;
+            height: 350px;
            
         }
     }
@@ -649,7 +649,7 @@ color: hsl(213, 9%, 39%);
   margin-bottom: -10px;
   font-size: 30px;
   padding: 10px 30px; 
-  margin-top: 2px;
+  margin-top: -25px;
 }
 .gray-text{
     font-size: 15px;
@@ -687,7 +687,11 @@ color: hsl(213, 9%, 39%);
     /* width: 100%; */
     /* margin: 460px 400px; */
 }
-
+.last{
+            
+    height: 150px;
+   
+}
 }
 
 @media (max-width:395px){
