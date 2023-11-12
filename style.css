@@ -294,7 +294,12 @@ img{
        
 }
 
-
+@media (max-width:997px) and (min-width:995px){
+.emilyimg , .thomasimg ,.jennieimg{
+    height: 60px;
+    width: 60px;
+}
+}
 @media (max-width:950px){
     label.logo{
         font-size: 30px;
@@ -405,6 +410,46 @@ color: hsl(213, 9%, 39%);
         height: 50vh;
     }
 }
+@media only screen and (max-width:809px) and (min-width:558px){
+    
+        .bleft-text , .bright-text{
+            position: absolute;
+           left: 0;
+           right: 0;
+           margin: 0 auto;
+           text-align: center;
+           top: 60%;
+        }
+    }
+    @media only screen and (max-width:539px) and (min-width:428px){
+        .bleft-text , .bright-text{
+            position: absolute;
+           left: 0;
+           right: 0;
+           margin: 0 auto;
+           text-align: center;
+           top: 50%;
+        }
+        .second-title , .center{
+            margin-top: -200px ;
+        }
+    }
+    @media only screen and (max-width:419px) and (min-width:404px){
+        .bleft-text , .bright-text{
+            position: absolute;
+           left: 0;
+           right: 0;
+           margin: 0 auto;
+           text-align: center;
+           top: 50%;
+        }
+        .second-title , .center{
+            margin-top: -200px ;
+        }
+    }
+
+
+   
 @media (max-width:538px){
     .header{
         font-size: 45px;
@@ -495,7 +540,9 @@ color: hsl(213, 9%, 39%);
       
     }
    
-   
+    .bright{
+        height: 200px;
+    }
 }
 @media (max-width:408px){
     .arrow{
@@ -526,7 +573,8 @@ color: hsl(213, 9%, 39%);
         margin: -10px 93px;
     }
 }
-@media (max-width:388px){
+
+@media (max-width:403px){
     .hero-section{
         background-image: url(images/mobile/image-header.jpg);
         height: 100vh;
@@ -547,7 +595,7 @@ color: hsl(213, 9%, 39%);
     }
   
     .checkbtn{
-        margin: -10px 146px;
+        margin: -10px 166px;
     }
     .arrow{
         display: block;
@@ -616,8 +664,13 @@ color: hsl(213, 9%, 39%);
 
 }
 
-
-
+@media (max-width:395px){
+    .checkbtn{
+        .checkbtn{
+            margin: -10px 146px;
+        }
+    }
+}
 
 
 
