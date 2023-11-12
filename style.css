@@ -80,7 +80,7 @@ a.active , a:hover{
 }
 img{
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 .mobile{
     display: none;
@@ -288,7 +288,7 @@ svg.sunny-last{
   
 }
 .last{
-    height: 50vh;
+    height: 90vh;
 }
 img{
     height: 90vh;
@@ -680,9 +680,9 @@ color: hsl(213, 9%, 39%);
 
 @media (max-width:395px){
     .checkbtn{
-        .checkbtn{
+       
             margin: -10px 140px;
-        }
+    
     }
 }
 
