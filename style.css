@@ -219,7 +219,7 @@ footer:hover{
 }
 .last{
     width: 100%;
-    height: 40vh;
+    height: 40%;
     text-align: center;
     background-color: hsl(168, 22%, 56%);
 }
@@ -287,11 +287,9 @@ svg.sunny-last{
    
   
 }
-.last{
-    height: 90vh;
-}
+
 img{
-    height: 90vh;
+    height: 90%;
 }
        
 }
@@ -455,11 +453,18 @@ color: hsl(213, 9%, 39%);
     }
 
 
-   
+    @media (max-width:638px){
+        .last{
+            
+            height: 300px;
+           
+        }
+    }
 @media (max-width:538px){
     img{
         height: 120%;
     }
+   
     .header{
         font-size: 45px;
         width: 100%;
@@ -560,6 +565,10 @@ color: hsl(213, 9%, 39%);
     }
 }
 @media (max-width:408px){
+    img{
+        width: 100%;
+        height: 70%;
+    }
     .arrow{
         display: block;
        left: 0%;
