@@ -453,10 +453,10 @@ color: hsl(213, 9%, 39%);
     }
 
 
-    @media (max-width:638px){
+    @media (max-width:858px){
         .last{
             
-            height: 450px;
+            height: 350px;
            
         }
     }
